@@ -9,20 +9,16 @@
 Summary:	Tie::RefHash - use references as hash keys
 #Summary(pl.UTF-8):	
 Name:		perl-Tie-RefHash
-Version:	1.37
+Version:	1.38
 Release:	1
-# same as perl (REMOVE THIS LINE IF NOT TRUE)
-#License:	GPL v1+ or Artistic
 # even cpan dont know license
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Tie/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	42dbd4d263d051ddcebc74dcd852c329
+# Source0-md5:	a1e52fe3ba2b7b03ecbf6990e666a6d8
 URL:		http://search.cpan.org/dist/Tie-RefHash/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with autodeps} || %{with tests}
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -67,5 +63,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %{perl_vendorlib}/Tie/*.pm
-#%%{perl_vendorlib}/Tie/RefHash
 %{_mandir}/man3/*
