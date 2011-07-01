@@ -9,13 +9,13 @@
 Summary:	Tie::RefHash - use references as hash keys
 #Summary(pl.UTF-8):	
 Name:		perl-Tie-RefHash
-Version:	1.38
+Version:	1.39
 Release:	1
 # even cpan dont know license
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Tie/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a1e52fe3ba2b7b03ecbf6990e666a6d8
+# Source0-md5:	179d4d02924bd9716e2ffe585cbd36c8
 URL:		http://search.cpan.org/dist/Tie-RefHash/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
