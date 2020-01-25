@@ -5,7 +5,6 @@
 
 %define		pdir	Tie
 %define		pnam	RefHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::RefHash - use references as hash keys
 Name:		perl-Tie-RefHash
 Version:	1.39
